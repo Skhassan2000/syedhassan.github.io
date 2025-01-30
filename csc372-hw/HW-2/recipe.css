@@ -1,0 +1,82 @@
+/* General Body Styles */
+body {
+    background-color: white; /* Sets the background of the page to white */
+    color: #404040; /* Sets the text color to #404040 (dark gray) */
+    font-family: Georgia, Garamond, serif; /* Sets the font to serif fonts (Georgia, Garamond) */
+    font-size: 11pt; /* Sets the font size to 11pt for body text */
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    color: #A4A400; /* Sets the foreground color of all headings to #A4A400 (yellow-green) */
+    background-color: #F0F0F0; /* Sets the background color of all headings to light gray */
+    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif; /* Sets heading font family */
+    text-decoration: underline; /* Underlines all headings */
+}
+
+h1 {
+    font-size: 22pt; /* Sets font size for the main heading */
+    text-align: center; /* Centers the main heading */
+    font-weight: bold; /* Makes the main heading bold */
+}
+
+h2, h3 {
+    font-size: 18pt; /* Sets font size for subheadings */
+    text-align: left; /* Aligns subheadings to the left */
+}
+
+/* User Comments Heading (same style as DIRECTIONS) */
+.user-comments-heading {
+    color: #A4A400; /* Sets the foreground color to #A4A400 */
+    background-color: #F0F0F0; /* Sets the background color to light gray */
+    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif; /* Heading font family */
+    text-decoration: underline; /* Underlines the heading */
+    font-size: 18pt; /* Sets font size to 18pt for consistency with other headings */
+}
+
+/* User Comments (same style as DIRECTIONS) */
+blockquote {
+    background-color: #FFFFA8; /* Sets background color for user comments */
+    border-left: 5px solid #A4A400; /* Adds a left border for emphasis */
+    padding: 10px; /* Adds padding around the text */
+    margin: 10px 0; /* Adds space between comment blocks */
+    font-size: 11pt; /* Sets font size for user comments */
+    font-style: italic; /* Italicizes the text */
+}
+
+/* Links */
+a {
+    color: #A4A400; /* Sets the color of links to #A4A400 (matching heading color) */
+    text-decoration: none; /* Removes underline from links by default */
+}
+
+/* Footer */
+footer p {
+    font-size: 12pt;
+    text-align: center;
+}
+
+/* Preformatted Text (Copyright) */
+pre {
+    font-family: monospace; /* Sets monospace font */
+    white-space: pre-wrap; /* Ensures text wraps within the pre-formatted section */
+    word-wrap: break-word; /* Breaks long words onto the next line */
+    font-size: 12pt; /* Sets a larger font size for preformatted text */
+}
+
+/* Directions Heading */
+.directions-heading {
+    color: lightyellow; /* Sets the color of directions heading to light yellow */
+    text-decoration: underline; /* Underlines the directions heading */
+    font-size: 18pt; /* Font size for the directions heading */
+}
+
+/* Ingredient List Styles */
+ul {
+    list-style-type: disc; /* Sets list style for ingredients */
+    padding-left: 20px; /* Adds padding to the left of the list */
+}
+
+li {
+    font-size: 11pt; /* Font size for list items */
+}
